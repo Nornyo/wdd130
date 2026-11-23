@@ -12,7 +12,7 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: var(--body-font);
 }
 
 header {
@@ -81,7 +81,7 @@ footer {
     justify-content: space-between;
     align-items: center;
     padding: 15px 20px;
-    background-color: #023047;
+    background-color: var(--primary-color);
     color: white;
 }
 
@@ -96,7 +96,6 @@ footer {
     height: 30px;
 }
 
-/* HISTORY + ADVENTURE - for Page Content 2 pts + Overall Styling 5 pts */
 .history {
     display: grid;
     grid-template-columns: 1fr 200px 1fr;
@@ -112,17 +111,16 @@ footer {
 
 .history h2 {
     grid-column: 1 / -1;
-    color: #023047;
+    color: var(--primary-color);
 }
 
-/* ADVENTURE PHOTOS - MAKES THEM SMALL AND NEAT */
 .adventure {
     text-align: center;
     padding: 20px;
 }
 
 .adventure h2 {
-    color: #023047;
+    color: var(--primary-color);
     margin-bottom: 15px;
 }
 
